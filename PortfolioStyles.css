@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #f6e8ff;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+#textPage {
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 100%;
+}
+
+#textPage h1 {
+	text-align: center;
+}
+
+.galleryContent .galleryText {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	height: 100%;
+}
+
+.resume {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.resume h2 {
+	color: #804bab;
+}
+.resume h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.resume h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.resume p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#banner {
+	background-color: #000000;
+}
+
+div .banner {
+	max-width: 20%;
+	max-height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 3em;
+}
+
+p {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+nav {
+	display: inline-block;
+	align-items: center;
+	padding-left: 6em;
+	z-index: 9999;
+}
+
+nav h3 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 3em;
+	color: white;
+}
+
+nav h3:hover {
+	color: #804bab;
+}
+
+.mainMenu:hover a {
+	color: #804bab;
+}
+
+.about {
+	position: relative;
+	display: inline-block;
+}
+
+.aboutDropdown {
+	display: none;
+	position: absolute;
+	background-color: black;
+	padding-bottom: 0;
+	padding-top: 0;
+	z-index: 9999;
+}
+
+nav h3 a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+#contentBlock1 {
+	position: relative;
+}
+
+.text1 {
+	position: absolute;
+	text-align: right;
+	right: 50px;
+	bottom: 1px;
+}
+
+.haley {
+	font-size: 8em;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+
+.hi {
+	font-size: 10em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.colorfulBackground {
+	width: 100%;
+	height: 100%;
+}
+
+.learnMore {
+	text-align: center;
+	vertical-align: middle;
+	bottom: 50em;
+	width: 100%;
+	background-image: url(images/Colorful_Background3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 15em;
+	padding-bottom: 15em;
+}
+
+.learnMore p {
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+}
+
+.headshot img {
+	width: 45%;
+	float: right;
+	margin-top: -3px;
+}
+
+#contentBlock2 {
+	width: 55%;
+	float: left;
+	margin-top: -3px;
+}
+
+#contentBlock2 h1 {
+	text-align: center;
+	margin-bottom: 0;
+	
+}
+
+.learnMore button {
+	background-color: #f6e8ff;
+}
+
+.portfolioButtons {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.portfolioButtons button {
+	background-color: black;
+}
+
+button {
+	margin-right: 5em;
+	margin-left: 5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.portfolioButtons button h2 {
+	display: inline-block;
+	align-content: center;
+	position: relative;
+	color: white;
+}
+
+#aboutContent {
+	margin-top: 0;
+	width: 100%;
+}
+
+div.gallery {
+	margin: 5px;
+	float: left;
+	width: 360px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	background-color: white;
+	margin-bottom: 1em;
+}
+
+div.gallery img {
+	width: auto;
+	max-width: 100%;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.gallery img {
+	overflow: hidden;
+	
+}
+
+div.gallery p {
+	text-align: center;
+}
+
+.galleryContent {
+	display: block;
+	clear: both;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.contact h1 {
+	text-align: center;
+}
+
+.contact form {
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 1%;
+}
+
+.contact form input[type=text] {
+	height: 20px;
+	width: 53%;
+	
+}
+
+.contact form textarea {
+	width: 53%;
+	margin-top: 10px;
+}
+
+.contact form .send {
+	width: 5%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+label, input {
+	display: inline-block;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.narrativeGallery {
+	position: relative;
+	width: 40%;
+	text-align: center;
+	left: 30%;
+	right: 30%;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none
+} 
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Position the "previous button" to the left */
+
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0 ,0.8)
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* Container for image text */
+.captionContainer {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Six columns side by side */
+.column {
+	float: left;
+	width: 16.66%;
+}
+
+/* Add a transparency effect for thumbnail images */
+.demo {
+	opacity: 0.6;
+}
+
+.active, .demo:hover {
+	opacity: 1;
+}
+
+.contactStuff {
+	text-align: center;
+	
+}
+
+.contactStuff h2 {
+	color: #804bab;
+	margin-bottom: 0;
+}
+
+.contactStuff h2 a {
+	color: #804bab;
+}
+
+.contactStuff {
+	margin-top: 0;
+}
+
+.contactStuff a:hover {
+	color: #000000;
+}
+
+
+
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.aboutDropdown a:hover {color: rgb(214, 253, 208);}
+
+.about:hover .aboutDropdown {display: block; margin-top: 0;}
+
+.about:hover .aboutHover {color: rgb(214, 253, 208;}
+
+
+
+
+@media only screen and (min-width: 601px) {
+	
+}
+
+@media only screen and (max-width: 600px) {
+	#contentBlock1 {
+		display: block;
+	}
+}
+

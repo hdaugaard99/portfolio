@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
